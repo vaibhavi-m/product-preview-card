@@ -29,9 +29,10 @@ body{
 }
 
 .green{
+  margin-bottom:0;
   margin-left: 0.3em;
   margin-right: 1em;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   color: hsl(158, 36%, 37%);
 }
