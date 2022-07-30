@@ -1,0 +1,94 @@
+body{
+  background-color:hsl(30, 38%, 92%);
+}
+.front-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12% 10% 12% 10%;
+}
+.image{
+  float: left;
+}
+.image-add{
+  border-radius: 10px 0 0 15px;
+  width:300px;
+  height: 450px;
+}
+.content{
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 450px;
+  width:300px;
+  background-color: white;
+  border-radius: 0 15px 15px 0;
+}
+.price{
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.green{
+  margin-left: 0.3em;
+  margin-right: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+.perfume{
+  padding-top: 25px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-transform:uppercase;
+}
+h1{
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+}
+.description{
+  font-size: 14px;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 7%;
+}
+button:hover {
+  background-color: hsl(158, 36%, 30%);
+}
+@media (min-width: 300px) and (max-width: 600px){
+
+  .front-page{
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  .image{
+    padding-top: 15px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .image-add{
+    height: 342px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .content{
+    border-radius: 0 0 15px 15px;
+  }
+
+  .image-add{
+    width: 340px;
+    height: 420px;
+  }
+}
